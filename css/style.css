@@ -1,0 +1,21 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+div{
+	display: inline-block;
+	padding: 5px;
+	width: 40%;
+	border: groove grey 5px;
+}
+h2{
+	margin: 0px;
+	text-align: center;
+}
+p{
+	margin: 0px;
+}
