@@ -1,0 +1,62 @@
+@font-face {
+	font-family: OldLondon;
+	src: url("../fonts/OldLondon.ttf");
+}
+@font-face {
+	font-family: BatmFa;
+	src: url("../fonts/batmfa__.ttf");
+}
+body{
+	padding: 0px;
+	padding-top: 10px;
+	margin: 0px;
+	text-align: center;
+	font-family: OldLondon;
+	color: #2cfc03;
+	background-color: black;
+}
+#LogoJHDC{
+	max-width: 120px;
+}
+h1{
+	text-align: center;
+	text-shadow:
+		0px 0px 20px #2cfc03,
+		0px 0px 30px #2cfc03;
+}
+#content{
+	max-width: 600px;
+	margin: auto;
+	padding: 10px 50px 10px 50px;
+	text-align: center;
+}
+.link{
+	font-family: BatmFa;
+	text-decoration: none;
+	font-size: 18px;
+	color: #2cfc03;
+	background-color: black;
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	border-left: 4px solid #2cfc03;
+	border-bottom: 4px solid #2cfc03;
+	border-radius: 20px 0px 20px 0px;
+}
+.link:hover{
+	font-size: 24px;
+	padding: 7px;
+	background-color: #2cfc03;
+	color: black;
+}
+.link_desact{
+	border-left: 4px solid grey;
+	border-bottom: 4px solid grey;
+	color: grey;
+}
+.link_desact:hover{
+	font-size: 24px;
+	padding: 7px;
+	background-color: grey;
+	color: black;
+}
