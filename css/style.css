@@ -34,21 +34,22 @@ h1{
 	text-align: center;
 }
 .link{
+	display: inline-block;
 	font-family: BatmFa;
 	text-decoration: none;
 	font-size: 18px;
+	text-align: left;
+	line-height: 38px;
+	width: calc(100% - 30px - 4px);
 	color: #2cfc03;
-	background-color: black;
-	display: block;
-	margin: 10px;
-	padding: 10px;
+	padding: 0px 15px 0px 15px;
+	margin: 10px 0px;
 	border-left: 4px solid #2cfc03;
 	border-bottom: 4px solid #2cfc03;
 	border-radius: 20px 0px 20px 0px;
 }
 .link:hover{
 	font-size: 23px;
-	padding: 7px;
 	background-color: #2cfc03;
 	color: black;
 }
@@ -57,4 +58,15 @@ h1{
 	border-bottom: 4px solid grey;
 	color: grey;
     pointer-events: none;
+}
+.link div{
+	width: calc(100% - 50px);
+	display: inline-block;
+	margin-right: 25px;
+	text-align: center;
+}
+.icon{
+	display: inline-block;
+	width: 25px;
+	vertical-align: middle;
 }
