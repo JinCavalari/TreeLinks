@@ -32,6 +32,10 @@ h1 {
 		0px 0px 30px #2cfc03;
 }
 
+h5 {
+	font-family: serif;
+}
+
 #content {
 	max-width: 600px;
 	margin: auto;
