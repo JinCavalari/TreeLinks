@@ -29,7 +29,6 @@ window.onload = () => {
         input.type = "text"
         input.name = names[i]
         input.value = data[keysMain[i]]
-        console.log(input.value)
         form.appendChild(input)
     }
     for (let i = 0; i < navig.length; i++) {
@@ -37,7 +36,6 @@ window.onload = () => {
         input.type = "text"
         input.name = navigNames[i]
         input.value = navig[i]
-        console.log(input.value)
         form.appendChild(input)
     }
 
