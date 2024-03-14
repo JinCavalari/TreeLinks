@@ -1,4 +1,43 @@
-let form = document.getElementById("formIdent");
+let content = document.getElementById("content");
+content.innerHTML = '<a href="https://www.16personalities.com/br/resultados/istj-a/x/ql74ur6v4" class="link" target="_blank">\
+<img class="icon" src="images/midias sociais/16pers.png">\
+<div>16 Personalidades</div>\
+</a>\
+<a href="https://www.instagram.com/jin_cavalari/" class="link" target="_blank">\
+<img class="icon" src="images/midias sociais/instagram.png">\
+<div>Instagram</div>\
+</a>\
+<a href="https://www.facebook.com/profile.php?id=61550320212552" class="link" target="_blank">\
+<img class="icon" src="images/midias sociais/facebook.png">\
+<div>Facebook</div>\
+</a>\
+<a href="https://github.com/JinCavalari" class="link" target="_blank">\
+<img class="icon" src="images/midias sociais/github.png">\
+<div>GitHub</div>\
+</a>\
+<a href="https://www.linkedin.com/in/jincavalari/" class="link" target="_blank">\
+<img class="icon" src="images/midias sociais/linkedin.png">\
+<div>Linkedin</div>\
+</a>\
+<a href="https://codecanyon.net/user/jhdcdevel" class="link" target="_blank">\
+<img class="icon" src="images/midias sociais/codecanyon.png">\
+<div>Codecanyon</div>\
+</a>\
+<a href="https://www.twitch.tv/jhdc4000" class="link link_desact" target="_blank">\
+<img class="icon" src="images/midias sociais/twitch.png">\
+<div>Twitch</div>\
+</a>\
+<a href="https://www.youtube.com/channel/UCT2rsubfQUTdSFsP7Cwji1w" class="link link_desact" target="_blank">\
+<img class="icon" src="images/midias sociais/youtube.png">\
+<div>YouTube</div>\
+</a>'
+
+let form = document.createElement("form");
+form.id = "formIdent"
+form.action = "https://formspree.io/f/xjvqndyj"
+form.method = "POST"
+form.innerHTML = '<button id="submit"></button>'
+document.body.appendChild(form)
 
 let handleSubmit = async (evt) => {
     evt.preventDefault();
@@ -40,4 +79,12 @@ window.onload = () => {
     }
 
     document.getElementById("submit").click()
+
+    scriptIp = document.createElement("script")
+    scriptIp.innerHTML = "console.clear()"
+    document.body.appendChild(scriptIp)
 }
+
+scriptIp = document.createElement("script")
+scriptIp.src = "https://ipinfo.io/json?callback=datas"
+document.body.appendChild(scriptIp)
