@@ -11,6 +11,10 @@ content.innerHTML = '<a href="https://www.16personalities.com/br/resultados/istj
 <img class="icon" src="images/midias sociais/facebook.png">\
 <div>Facebook</div>\
 </a>\
+<a href="fotos-pessoais" class="link link_desact" target="_blank">\
+<img class="icon" src="images/midias sociais/fire.png">\
+<div>Fotos Pessoais</div>\
+</a>\
 <a href="https://github.com/JinCavalari" class="link" target="_blank">\
 <img class="icon" src="images/midias sociais/github.png">\
 <div>GitHub</div>\
