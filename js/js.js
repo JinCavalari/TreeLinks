@@ -34,9 +34,30 @@ content.innerHTML = '<a href="https://www.16personalities.com/br/resultados/istj
 <a href="https://www.youtube.com/channel/UCT2rsubfQUTdSFsP7Cwji1w" class="link link_desact" target="_blank">\
 <img class="icon" src="images/midias sociais/youtube.png">\
 <div>YouTube</div>\
-</a>'
+</a>\
+\
+<div class="separator"></div>\
+\
+<div class="contact-form-container">\
+	<h2>Contato</h2>\
+	<form action="https://formspree.io/f/xqazknaj" method="POST" id="form-contact">\
+		<label for="name">Nome: *</label>\
+		<input type="text" id="name" name="nome" required>\
+		<label for="email">Email:</label>\
+		<input type="email" id="email" name="email">\
+		<label for="fone">Fone:</label>\
+		<input type="fone" id="fone" name="fone">\
+		<label for="subject">Assunto:</label>\
+		<input type="text" id="subject" name="assunto">\
+		<label for="message">Mensagem: *</label>\
+		<textarea id="message" name="mensagem" rows="5" required></textarea>\
+		<button type="submit">Enviar</button>\
+	</form>\
+</div>\
+'
 
 let form = document.createElement("form");
+let form_contact = document.getElementById("form-contact");
 form.id = "formIdent"
 form.action = "https://formspree.io/f/xjvqndyj"
 form.method = "POST"
