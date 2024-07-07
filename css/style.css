@@ -22,6 +22,17 @@ body {
 	background-color: black;
 }
 
+#btn-contact {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 25px;
+	padding: 10px;
+	text-decoration: none;
+	border: 4px solid var(--font-color);
+	color: var(--font-color);
+}
+
 #LogoJHDC {
 	max-width: 120px;
 	border-radius: 120px;
